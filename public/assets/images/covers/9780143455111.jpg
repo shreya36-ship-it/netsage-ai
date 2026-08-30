@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1F2B"/>
+      <stop offset="100%" stop-color="#0E121B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3C6EE6"/>
+      <stop offset="100%" stop-color="#3C6EE6DD"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background Cover Frame -->
+  <rect width="400" height="560" rx="16" fill="url(#bg)" />
+
+  <!-- Spine Simulation Line -->
+  <rect x="0" y="0" width="16" height="560" rx="4" fill="#000000" opacity="0.3"/>
+  <line x1="16" y1="0" x2="16" y2="560" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="2"/>
+
+  <!-- Geometric 4-Quadrant Top Header Accent -->
+  <rect x="340" y="24" width="18" height="18" fill="#F5B719" rx="3"/>
+  <rect x="362" y="24" width="18" height="18" fill="#20AC69" rx="3"/>
+  <rect x="340" y="46" width="18" height="18" fill="#F0534C" rx="3"/>
+  <rect x="362" y="46" width="18" height="18" fill="#3C6EE6" rx="3"/>
+
+  <!-- Brand Badge Top Left -->
+  <rect x="36" y="28" width="140" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="106" y="47" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">BOOK AFFAIR</text>
+
+  <!-- Central Icon Frame -->
+  <g filter="url(#shadow)">
+    <circle cx="200" cy="200" r="70" fill="url(#accent)" />
+    <text x="200" y="222" font-size="64" text-anchor="middle">🔬</text>
+  </g>
+
+  <!-- Title Section -->
+  <rect x="36" y="310" width="328" height="180" rx="12" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.1" />
+  
+  <text x="200" y="355" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Visual Encyclopedia for Kids</text>
+  <text x="200" y="388" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#3C6EE6" text-anchor="middle" letter-spacing="1">EDUCATIONAL</text>
+  
+  <line x1="120" y1="410" x2="280" y2="410" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="1"/>
+
+  <text x="200" y="440" font-family="Arial, sans-serif" font-size="11" fill="#A0AEC0" text-anchor="middle">ISBN: 9780143455111</text>
+  
+  <!-- Footer Quality Seal -->
+  <rect x="36" y="505" width="328" height="30" rx="6" fill="#3C6EE6" fill-opacity="0.2"/>
+  <text x="200" y="525" font-family="Georgia, serif" font-style="italic" font-size="12" fill="#FFFFFF" text-anchor="middle">Chennai Independent Book Store</text>
+</svg>
