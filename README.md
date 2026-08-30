@@ -106,3 +106,5 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to interact 
 
 ## 📜 License & Citation
 Developed for the Cisco Applied AI + Network Troubleshooting Internship Project.
+
+DEMO VIDEO LINK:https://drive.google.com/file/d/173TNKzWz4snj8_SvcTLTLU5mOZQ5Wwe6/view?usp=drivesdk
